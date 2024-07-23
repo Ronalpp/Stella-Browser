@@ -1,0 +1,78 @@
+QMainWindow {
+    background-color: #282c34;
+}
+
+QToolBar {
+    background: #21252b;
+    border-bottom: 1px solid #444;
+    padding: 5px;
+    spacing: 10px;
+}
+
+QToolButton {
+    background: transparent;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+QToolButton:hover {
+    background: #3e3e3e;
+    border-radius: 5px;
+}
+
+QLineEdit {
+    background: #3e3e3e;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+QTabWidget::pane {
+    border: none;
+}
+
+QTabBar::tab {
+    background: #1e1e1e; /* Fondo oscuro para las pestañas */
+    color: #c9d1d9; /* Color del texto */
+    padding: 10px 20px; /* Espaciado alrededor del texto */
+    border: 1px solid #444; /* Borde sutil */
+    border-bottom: 1px solid #1e1e1e; /* Borde inferior para que se vea como parte del panel */
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-right: -1px; /* Para que se unan las pestañas */
+    font-weight: normal;
+    min-width: 120px; /* Ancho mínimo para que el texto no se corte */
+}
+
+QTabBar::tab:selected {
+    background: #282c34; /* Fondo oscuro para la pestaña activa */
+    color: #ffffff; /* Color del texto para la pestaña activa */
+    border-color: #444; /* Borde más oscuro para la pestaña activa */
+    border-bottom: 1px solid #282c34; /* Sin borde inferior para que se vea como parte del contenido */
+}
+
+QTabBar::tab:hover {
+    background: #333; /* Color de fondo al pasar el mouse sobre la pestaña */
+}
+
+QTabBar::tab:top {
+    padding: 10px 15px; /* Aumentar el espaciado en la parte superior */
+}
+
+QMenu {
+    background-color: #3e3e3e;
+    border: 1px solid #555;
+}
+
+QMenu::item {
+    background-color: transparent;
+    padding: 8px 20px;
+    color: white;
+}
+
+QMenu::item:selected {
+    background-color: #5e5e5e;
+}

@@ -1,0 +1,33 @@
+/* dev_tools.qss */
+
+/* General Styles */
+QWidget {
+    background-color: #1e1e1e; /* Dark background for the whole widget */
+    color: #dcdcdc; /* Light text color for better contrast */
+    font-family: Arial, sans-serif;
+}
+
+QLabel {
+    color: #f0f0f0; /* Label text color */
+    font-weight: bold;
+}
+
+QTextEdit {
+    background-color: #2e2e2e; /* Dark background for text editors */
+    color: #dcdcdc; /* Light text color */
+    border: 1px solid #444; /* Dark border for editors */
+    border-radius: 4px; /* Rounded corners */
+    padding: 8px; /* Padding inside editors */
+}
+
+QPushButton {
+    background-color: #007acc; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 8px 16px; /* Padding inside button */
+}
+
+QPushButton:hover {
+    background-color: #005f99; /* Darker button color on hover */
+}
